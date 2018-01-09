@@ -1,12 +1,10 @@
-integer_array = [7, 3, 1, 2, 6, 5]
-
 def sort_array_asc(array)
-  integer_array.sort
+  array.sort
 end
 
 
 def sort_array_desc(array)
-  integer_array.reverse
+  array.reverse
 end
 
 
