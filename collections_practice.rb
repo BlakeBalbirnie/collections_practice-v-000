@@ -4,8 +4,10 @@ end
 
 
 def sort_array_desc(array)
-  array.sort reverse?
-end
+  array.sort do |a, b|
+    b <=> a
+  end
+
 
 
 def sort_array_char_count(array)
