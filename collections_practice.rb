@@ -4,7 +4,7 @@ end
 
 
 def sort_array_desc(array)
-  array.sort_reverse
+  array.sort_by {|a,b| a}
 end
 
 
