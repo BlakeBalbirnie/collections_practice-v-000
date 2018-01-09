@@ -19,26 +19,26 @@ def swap_elements(array)
 end
 
 
-def reverse_array
+def reverse_array(array)
   array.reverse
 end
 
 
-def kesha_maker
+def kesha_maker(array)
   array.each {|i| i[2] = "$"}
 end
 
 
-def find_a
-
+def find_a(array)
+  array.select {|i| i.start_with?("a")}
 end
 
 
-def sum_array
-
+def sum_array(array)
+  array.inject(:+)
 end
 
 
-def add_s
-
+def add_s(array)
+  array.each_with_index.collect {|element, index| index != 1 ? element << "s" : element}
 end
