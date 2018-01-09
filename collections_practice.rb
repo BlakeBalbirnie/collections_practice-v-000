@@ -25,12 +25,12 @@ end
 
 
 def kesha_maker
-  changed_array  =  array.map  do |string|  string[2] = "$" end
+  array.each {|i| i[2] = "$"}
 end
 
 
 def find_a
-  
+
 end
 
 
