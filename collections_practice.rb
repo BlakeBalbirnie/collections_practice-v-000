@@ -20,17 +20,17 @@ end
 
 
 def reverse_array
-
+  array.reverse
 end
 
 
 def kesha_maker
-
+  changed_array  =  array.map  do |string|  string[2] = "$" end
 end
 
 
 def find_a
-
+  
 end
 
 
