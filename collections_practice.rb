@@ -4,7 +4,7 @@ end
 
 
 def sort_array_desc(array)
-  array.sort_by {|a,b| b}
+  array.sort do |a,b| b <=> a
 end
 
 
